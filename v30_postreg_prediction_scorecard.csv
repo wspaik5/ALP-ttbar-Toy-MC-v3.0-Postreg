@@ -1,0 +1,12 @@
+ID,Description,Criterion,Tier,Value,Std,Detail,Result
+A1,Removed have higher mean Δχ²_z,mean ratio > 2.0,Core,3.9883,0.0792,Mean ratio = 3.9883 (N/A: 0 seeds),CONFIRMED
+A2,Removed enriched at Δχ²_z > 4,enrichment > 3×,Core,0.9664,0.0072,Mean enrichment = 0.97× (N/A: 0 seeds),REFUTED
+A3,Δχ²_z of removed consistent across seeds,CV < 50%,Secondary,1.92,,CV = 1.92%,CONFIRMED
+B1,|λ| correlates with Δχ²_z,Spearman ρ > 0.3,Core,0.3525,0.0037,Mean ρ = 0.3525,CONFIRMED
+B2,Upper/lower tails symmetric in Δχ²_z,|Δmean|/pooled < 0.2,Diagnostic,1.9432,0.004,Mean asymmetry = 1.9432,REFUTED
+B3,Δχ²_z discriminates removal,AUC > 0.7,Secondary,0.5881,0.0034,Mean AUC = 0.5881,REFUTED
+C1,Per-band removal rate varies,CV > 20%,Diagnostic,118.45,3.32,Mean CV = 118.45%,CONFIRMED
+C2,Removal rate anti-correlates with band HW,Spearman ρ < 0,Diagnostic,0.7792,0.0043,Mean ρ = 0.7792,REFUTED
+C3,Nearest-band p_conv dominates,fraction > 0.8,Secondary,1.0,0.0,Mean nearest-band fraction = 1.0000,CONFIRMED
+D1,Position-only λ_pos still shows A1 effect,mean ratio > 2.0,Core,2.1616,0.0499,Mean ratio = 2.1616 (N/A: 0 seeds),CONFIRMED
+D2,Fit-only λ_fit channel contribution,mean ratio reported,Diagnostic,4.0827,0.0828,Mean ratio = 4.0827 (N/A: 0 seeds),REPORTED
